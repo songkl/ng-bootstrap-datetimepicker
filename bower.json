@@ -1,5 +1,6 @@
 {
   "name": "ng-datetimepicker",
+  "version":"0.0.1",
   "homepage": "https://github.com/songkl/ng-datetimepicker",
   "authors": [
     "songkl <skl@songkl.com>"
@@ -19,8 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.1.0",
+    "jquery": ">= 1.7.2",
     "datetimepicker": "^2.5.4",
-    "angular": "^1.5.8"
+    "angular": "*"
   }
 }
