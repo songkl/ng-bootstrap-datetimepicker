@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link rel="stylesheet" href="../bower_components/datetimepicker/build/jquery.datetimepicker.min.css">
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+    <script src="../bower_components/php-date-formatter/js/php-date-formatter.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../src/ng-bootstrap-datetimepicker.js"></script>
+    <script src="demo.js"></script>
+</head>
+<body ng-controller="testCtrl">
+
+    <div class="container">
+
+        <div class="row">
+            $scope.time : <span>{{time|date:'yyyy/MM/dd HH:mm:ss'}}</span>
+        </div>
+
+        <div class="row">
+            {{time2}}
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <div class="input-group col-sm-4">
+                    <input ngdatetimepicker="time"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <div class="input-group col-sm-4">
+                    <input ngdatetimepicker options="{minDate:'2017/1/1'}"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
