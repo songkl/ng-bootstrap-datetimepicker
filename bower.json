@@ -1,0 +1,26 @@
+{
+  "name": "ng-datetimepicker",
+  "homepage": "https://github.com/songkl/ng-datetimepicker",
+  "authors": [
+    "songkl <skl@songkl.com>"
+  ],
+  "description": "",
+  "main": "src/ng-datetimepicker.js",
+  "keywords": [
+    "datetimepicker"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "datetimepicker": "^2.5.4",
+    "angular": "^1.5.8"
+  }
+}
