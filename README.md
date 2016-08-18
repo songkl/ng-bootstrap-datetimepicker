@@ -21,7 +21,7 @@ angular.module('yourapp',['ngDatetimePicker'])
       	defaultDate:'+03.01.1970'
       	defaultTime:'10:00'
       	timepickerScrollbar:false
-      	step:5,
+      	step:5
         inline:true
         mask:'9999/19/39 29:59'
         yearOffset:222
