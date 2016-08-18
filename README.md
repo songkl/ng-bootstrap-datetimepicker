@@ -32,9 +32,12 @@ angular.module('yourapp',['ngDatetimePicker'])
         minDate:'-1970/01/02'
         maxDate:'+1970/01/02'
       	
-```
-   config global options
-   use ngDatetimePicker provider method extendConfig(yous_options);
+```javascript
+   //config global options
+   //use ngDatetimePicker provider 
+   ngDatetimePickerProvider.extendConfig({
+        minDate:'2017/1/1'
+   });
       	
       	
 ```   
